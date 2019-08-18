@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  
+    <!-- step1.2引入bootstrap的CSS部分 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css" />
+
+    <!-- step1.3引入FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-12/css/all.min.css">
+    
+    <title>Yi Hsuan`s Resume</title>
+  </head>
+  <body>
+<header class="bg-light">
+<div class="container">
+  <nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <a class="navbar-brand navbar__brand" href="#">
+      <img class="nav__logo" src="images\logo-j.svg" alt="logo-j">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse navbar__collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        
+        <li class="nav-item">
+          <a class="nav-link" href="#intro">關於我</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skill">技能</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">作品集</a>
+        </li>
+
+      </ul>
+    </div>
+    <div class="nav__icons navbar__icons">
+      <ul>
+        <il>
+          <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fas fa-feather-alt"></i></a>
+        </il>
+        <il>
+          <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-square"></i></a>
+        </il>
+        <il>
+          <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+        </il>
+      </ul>
+    
+    
+    </div>
+  </nav>
+</div>
+</header>
+<main>
+  <section id="carouselExampleControls" class="carousel slide carousel__info" data-ride="carousel">
+    <p>Hello, my name is YiHsuan. </p>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/banner-1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/banner-2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/banner-3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+  </section>
+ 
+  <section id="intro" class="container">
+    <h2>關於我</h2>
+  <div class="row">
+    <div class="intro__avatar__container col-12 col-sm-6">
+      <img class="intro__avatar" src="images/avatar.jpg" alt="my photo">
+    </div>
+    <div class="col-12 col-sm-6">
+      <h3>Hi, my name is YiHsuan</h3>
+      <p>我是一名因著對美感有追求，而從理工世界踏入設計圈的設計師，結合理工人的理性和對美的感性，擅長規劃介面互動流程與UI視覺設計      </p>
+    <button>下載我的CV</button>
+    </div>
+  </div>
+  </section>
+
+  <section id="skill" class="container">
+    <h2>技能</h2>
+    <div class="skill__content row">
+      <div class="skill__content__item col-12 col-md-4">
+        <div class="skill__content__item__container">
+          <img src="images/skill-photoshop.png" alt="photoshop">
+          <h4>Photoshop</h4>
+          <div class="skill__content__item__intro">
+            平面設計及影像合成設計
+          </div>
+        </div>
+      </div>
+      <div class="skill__content__item col-12 col-md-4">
+        <div class="skill__content__item__container">
+          <img src="images/skill-illustrator.png" alt="illustrator">
+          <h4>Illustrator</h4>
+          <div class="skill__content__item__intro">
+            平面設計及影像合成設計平面設計及影像合成設計平面設計及影像合成設計
+          </div>
+        </div>
+      </div>
+      <div class="skill__content__item col-12 col-md-4">
+          <div class="skill__content__item__container">
+            <img src="images/skill-exhibition.png" alt="exhibition">
+            <h4>Exhibition</h4>
+            <div class="skill__content__item__intro">
+                平面設計及影像合成設計平面設計及影像合成設計平面設計及影像合成設計平面設計及影像合成設計平面設計及影像合成設計平面設計及影像合成設計
+            </div>
+          </div>
+        </div>
+  
+
+
+    </div>
+  </section>
+
+  <section id="portfolio" class="container">
+    <h2>作品集</h2>
+    <div class="portfolio__items row">
+
+      <div class="portfolio__items__container col-12 col-md-6 col-lg-3">
+          <img src="images/portfolio-one.jpg" alt="portfolio-one">
+          <div class="portfolio__items__container__cover">
+            <span>作品名稱1</span>
+          </div>
+        </div>
+    
+      <div class="portfolio__items__container col-12 col-md-6 col-lg-3">
+        <img src="images/portfolio-two.jpg" alt="portfolio-one">
+        <div class="portfolio__items__container__cover">
+          <span>作品名稱2</span>
+        </div>
+      </div>
+
+      <div class="portfolio__items__container col-12 col-md-6 col-lg-3">
+        <img src="images/portfolio-three.jpg" alt="portfolio-one">
+        <div class="portfolio__items__container__cover">
+          <span>作品名稱3</span>
+        </div>
+      </div>
+
+      <div class="portfolio__items__container col-12 col-md-6 col-lg-3">
+        <img src="images/portfolio-one.jpg" alt="portfolio-one">
+        <div class="portfolio__items__container__cover">
+          <span>作品名稱4</span>
+        </div>
+      </div>
+
+      <div class="portfolio__items__container col-12 col-md-6 col-lg-3">
+        <img src="images/portfolio-two.jpg" alt="portfolio-one">
+        <div class="portfolio__items__container__cover">
+          <span>作品名稱5</span>
+        </div>
+      </div>
+
+      <div class="portfolio__items__container col-12 col-md-6 col-lg-3">
+        <img src="images/portfolio-three.jpg" alt="portfolio-one">
+        <div class="portfolio__items__container__cover">
+          <span>作品名稱6</span>
+        </div>
+      </div>
+
+      <div class="portfolio__items__container col-12 col-md-6 col-lg-3">
+          <img src="images/portfolio-one.jpg" alt="portfolio-one">
+          <div class="portfolio__items__container__cover">
+            <span>作品名稱7</span>
+          </div>
+        </div>
+      <div class="portfolio__items__container col-12 col-md-6 col-lg-3">
+        <img src="images/portfolio-two.jpg" alt="portfolio-one">
+        <div class="portfolio__items__container__cover">
+          <span>作品名稱8</span>
+        </div>
+      </div>
+
+    
+    </div>
+    
+    <!-- light box -->
+    <div class="portfolio__lightbox">
+        <i class="far fa-window-close portfolio__lightbox__close"></i>
+        <img src="images/portfolio-one.jpg" alt="portfolio">
+    </div>
+
+
+  </section>
+
+</main>
+
+<footer class="container-fluid bg-light">
+<span>Copyright &copy; 2019</span>
+
+      <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fas fa-feather-alt"></i></a>
+ 
+      <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-square"></i></a>
+  
+      <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+
+
+</footer>
+
+
+
+    <!-- step1.2引入bootstrap的JS部分 -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!-- 引入燈箱效果 -->
+<script src="./lightbox.js"></script>
+  </body>
+</html>
